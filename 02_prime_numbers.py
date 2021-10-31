@@ -32,4 +32,4 @@ def previous_is_prime_number(number):
 
 
 if __name__ == '__main__':
-    print(previous_is_prime_number(12))
+    print(previous_is_prime_number(18))
