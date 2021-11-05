@@ -10,7 +10,7 @@ def numerate_files(filepath):
     for index, file in enumerate(os.listdir(filepath)):
         with open(file, mode='r') as f:
             file_name, extension = file.split('.')
-            os.rename(file, file_name + f'_{index}.{extension}')
+        os.rename(file, file_name + f'_{index}.{extension}')
 
 
 if __name__ == '__main__':
