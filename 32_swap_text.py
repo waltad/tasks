@@ -13,5 +13,6 @@ def swap_case(filepath):
 
 if __name__ == '__main__':
     home = os.getcwd()
-        'TEST/text_to_chang'
+    path = 'text_to_chang'
+    file_path = os.path.join(home, path)
     swap_case(file_path)
